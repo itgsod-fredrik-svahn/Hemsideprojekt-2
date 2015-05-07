@@ -1,6 +1,5 @@
 #container {
-    background-color: blue;
-    width: 750px;
+    width: 1000px;
     height: 1500px;
     margin-left: auto;
     margin-right: auto;
@@ -8,21 +7,53 @@
 
 #logo {
     background-color: red;
-    width:40%;
-    height:125px;
+    width:400px;
+    height:150px;
     float:left;
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
 #menu {
-    background-color: green;
+    background-color: #202020;
     width:100%;
     height: 125px;
     float:left;
+
 }
 
 #inputLogin {
-    background-color: yellow;
-    width:60%;
-    height: 125px;
+    background-color: #75D472;
+    width:40%;
+    height: 15%;
     float:left;
+    margin-left: 7.5%;
+}
+
+#content {
+    background-color: #75D472;
+    width: 80%;
+    height: 50%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
+
+body {
+    background-color: #003500
+}
+
+.menuButton {
+    float:left;
+    width: 120px;
+    height: 80%;
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+    background-color: green;
+    margin-left: 20px;
+}
+
+.menuButton:hover {
+    background-color: blue;
 }
