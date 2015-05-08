@@ -6,12 +6,15 @@
 }
 
 #logo {
-    background-color: red;
     width: 400px;
     height: 150px;
     float: left;
     margin-top: 5%;
     margin-left: 5%;
+    color: #75D472;
+    font-family: Helvetica;
+    font-size: 40px;
+    text-align: center;
 }
 
 #menu {
@@ -19,6 +22,7 @@
     width: 100%;
     height: 125px;
     float: left;
+
 
 }
 
