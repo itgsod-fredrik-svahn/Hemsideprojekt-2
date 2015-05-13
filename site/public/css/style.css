@@ -48,7 +48,7 @@
 }
 
 body {
-    background-color: #002000
+    background-color: #002000;
 }
 
 .menuButton {
@@ -85,24 +85,25 @@ body {
 }
 
 .inputLogin {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 9px;
+    float:left;
+    width:150px;
+    margin-left: 23px;
+    margin-top: 10px;
     border: solid black 1px;
     height: 20px;
 }
 
 #inputLoginButton {
-    width: 80px;
+    width: 100px;
     height: 30px;
-    float: left;
-    margin-left: 20px;
-    background-color: #005000;
+    float:left;
+    margin-left: 50px;
+    margin-top: 7px;
+    background-color: #005535;
     text-align: center;
     font-family: Helvetica;
     font-size: 15px;
     color: #959595;
-    margin-top: 10px;
     text-decoration: none;
 
 }
@@ -120,8 +121,8 @@ body {
 .personPhoto {
     width: 200px;
     height: 200px;
-    background-color: red;
-    margin-left: 95px;
+    background-image: url("../img/personPhoto.png");
+    margin-left: 100px;
     margin-top: 60px;
     float:left;
 }
@@ -135,5 +136,51 @@ body {
 
 }
 
+#list {
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 600px;
+    height: 480px;
+    background-color: transparent;
+    overflow: scroll;
+    border: solid black 5px;
 
+}
 
+#personBlock {
+    width: 100%;
+    height: 310px;
+    background-color:transparent;
+    border-bottom: solid black 5px;
+}
+
+.kurserHeader {
+    font-size: 20px;
+    font-family: Helvetica;
+    text-align:center;
+    width: 400px;
+    margin-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    float:left;
+}
+
+#contentEvenemang {
+    width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: #AAFFAA;
+    padding: 10px;
+    height: 480px;
+    overflow:scroll;
+
+}
+
+#contentDinProfil {
+    font-family: Helvetica;
+    width: 900px;
+    height: 600px;
+    background-color: red;
+    margin-left: 50px;
+}
